@@ -1,0 +1,47 @@
+.upperLine {
+  display: flex;
+  padding: 7px;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+a {
+  /* text-decoration: none; */
+  color: white;
+}
+.cross {
+  position: relative;
+  right: -25vw;
+  color: white;
+  /* margin-left: 30vw; */
+}
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 15px;
+  gap: 32px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+}
+#shopSelect {
+  display: flex;
+  border: none;
+  margin-top: 5px;
+}
+.search-input {
+  width: 577px;
+  min-height: 48px;
+  border: none;
+  border-radius: 62px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
